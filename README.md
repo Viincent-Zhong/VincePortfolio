@@ -1,10 +1,4 @@
 # VincePortfolio
 
 ##Technologies
- ### Frontend
-   Vuejs
- ### Backend
-   Rust
- ### Database
-   MongoDB (NoSQL)
-  
+ ReactJS, Tailwind CSS
