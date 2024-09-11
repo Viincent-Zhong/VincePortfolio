@@ -1,4 +1,4 @@
 # VincePortfolio
 
 ##Technologies
- ReactJS, Tailwind CSS
+ NextJS, Tailwind CSS
