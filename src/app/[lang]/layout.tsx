@@ -7,7 +7,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Vincent Zhong",
+  title: "Vincent Zhong Portfolio",
   description: "Vincent Zhong's portfolio",
   icons: [
     { url : "/images/coding.png", rel: "icon", type: "image/x-icon" },

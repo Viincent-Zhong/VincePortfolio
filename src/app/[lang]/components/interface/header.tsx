@@ -22,7 +22,7 @@ export default function Header() {
         </div>
         {/* Translation */}
         <div className="row-start-1 row-span-1 col-start-4 md:col-start-6 lg:col-start-10 col-span-1">
-            <ul>
+            <ul className="text-5xl text-white">
             {i18n.locales.map((locale) => {
               return (
                 <li key={locale}>
