@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import {NextIntlClientProvider} from 'next-intl';
-import {getLocale, getMessages} from 'next-intl/server';
+import { i18n, type Locale } from "../../i18n-config";
+
+export async function generateStaticParams() {
+  return i18n.locales.map((locale) => ({ lang: locale }));
+}
 
 export const metadata: Metadata = {
   title: "Vincent Zhong",
@@ -13,18 +16,16 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
+  params
 }: Readonly<{
   children: React.ReactNode;
+  params: { lang: Locale };
 }>) {
-  const locale = await getLocale();
-  const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={params.lang}>
       <body>
-        <NextIntlClientProvider messages={messages}>
           {children}
-        </NextIntlClientProvider>
       </body>
     </html>
   );
