@@ -1,4 +1,5 @@
 import Interface from "../components/interface/interface";
+import HeroSection from "./hero";
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <Interface/>
       {/* Introduction */}
       <div className="pt-32">
-        <h1 className="text-5xl">Hello </h1>
+        <HeroSection/>
       </div>
 
       {/* Experiences */}
