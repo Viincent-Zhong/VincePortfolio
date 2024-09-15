@@ -12,7 +12,6 @@ export default async function Home({ params: { lang }}: { params: { lang: Locale
       {/* Introduction */}
       <div className="pt-40 pb-40">
         <HeroSection dictionary={dictionary["hero"]}/>
-        <div id="section-test" className="h-[50rem] bg-slate-200"></div>
       </div>
 
       {/* Experiences */}

@@ -41,8 +41,7 @@ export default async function HeroSection({ dictionary }: Props) {
             </div>
 
             {/* Introduction */}
-            <p className="mt-40 text-6xl text-center text-white font-mono">{dictionary.intro_title} 😃 </p>
-            {/*  */}
+            <p className="mt-40 text-6xl text-center text-white font-mono font-bold">{dictionary.intro_title} 😃 </p>
             <div className="lg:ml-56 mt-20 grid grid-cols-1 lg:grid-cols-4">
                 <p className="lg:col-span-2 text-2xl p-4 ">
                     <a className="text-white">
@@ -61,7 +60,7 @@ export default async function HeroSection({ dictionary }: Props) {
                     {dictionary.intro_skills + "  "}
                     </a>
                     <a className="text-indigo-300 font-bold">
-                        C C++ JavaScript Python 
+                        C, C++, JavaScript, Python, Haskell.
                     </a>
                     <br/><br/>
                     {/* Frameworks */}
@@ -69,7 +68,7 @@ export default async function HeroSection({ dictionary }: Props) {
                     {dictionary.intro_frameworks + "  "}
                     </a>
                     <a className="text-indigo-300 font-bold">
-                        ReactJS NextJS VueJS NuxtJS 
+                        ReactJS, NextJS, VueJS, NuxtJS.
                     </a>
                     {/* Soft skills 1*/}
                     <a className="text-white">
@@ -94,9 +93,9 @@ export default async function HeroSection({ dictionary }: Props) {
                         {dictionary.intro_soft_skills_2_part2}
                     </a>
                 </p>
-                <div className="mt-20 relative lg:col-start-3 col-span-1 h-96">
+                <div className="mt-12 relative lg:col-start-3 col-span-1 h-96">
                     {/* Trouver une photo de moi qui taff */}
-                  <Image src="/images/portfolio-pic.jpg" alt="pic" fill={true} sizes="w-full h-full"/>
+                  <Image src="/images/chill-coding.jpg" alt="pic" fill={true} sizes="w-full h-full"/>
                 </div>
             </div>
         </>
