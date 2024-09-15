@@ -1,5 +1,17 @@
 {
-    "hero": {
-      "introduction": "Welcome I'm Vincent"
-    }
+  "hero": {
+    "welcome": "Welcome to my portfolio!",
+    "me": "I am",
+    "me-name": "Vincent Zhong",
+    "me-2": "a",
+    "me-2-title": "Software Engineer",
+    "intro-title": "A quick intro about me",
+    "intro": "Hey! I'm Vincent, a software engineer driven by the challenge of turning ideas into real-world solutions.",
+    "intro-diploma": "Soon-to be graduated from Epitech Paris with a",
+    "intro-diploma-name": "Master's Degree in Information Technologies",
+    "intro-skills": "I have proficiency in various programming languages, including",
+    "intro-frameworks": "And am skilled in modern frameworks such as",
+    "intro-team-skills": "I support Agile methodologies and excel in team environments, using these skills to create strong products.",
+    "intro-soft-skills": "I have a strong capacity for adaptability, am rigorous, and tackles challenges with enthusiasm. My ability to learn quickly enables me to continously improve and deliver quality products."
+  }
 }
