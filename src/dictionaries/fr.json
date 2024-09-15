@@ -2,16 +2,20 @@
   "hero": {
     "welcome": "Bienvenue sur mon portfolio!",
     "me": "Je suis",
-    "me-name": "Vincent Zhong",
-    "me-2": "un",
-    "me-2-title": "Software Engineer",
-    "intro-title": "Une rapide intro sur moi",
+    "me_name": "Vincent Zhong",
+    "me_2": "Un",
+    "me_2_title": "Software Engineer",
+    "intro_title": "Une rapide intro sur moi",
     "intro": "Hey! Je suis Vincent, un software engineer motivé par le défi de transformer des idées en solutions concrètes.",
-    "intro-diploma": "Bientôt diplômé de Epitech Paris avec un ",
-    "intro-diploma-name": "Diplôme d'Expert en Technologies de l'Information",
-    "intro-skills": "Je maîtrise divers langages de programmation, incluant",
-    "intro-frameworks": "Également l'utilisation de frameworks modernes tels que",
-    "intro-team-skills": "Je soutiens les méthodologies Agile et excelle dans les environnements d'équipe, utilisant ces compétences pour créer des produits solides.",
-    "intro-soft-skills": "Je possède une capacité d'adapation, je suis rigoureux et relève les défis avec entrains. Ma capacité à apprendre rapidement me permet de m'améliorer continuellement et de livrer des produits de qualité."
+    "intro_diploma": "Bientôt diplômé de Epitech Paris avec un ",
+    "intro_diploma_name": "Diplôme d'Expert en Technologies de l'Information.",
+    "intro_skills": "Je maîtrise divers langages de programmation, incluant",
+    "intro_frameworks": "Également l'utilisation de frameworks modernes tels que",
+    "intro_soft_skills_part1": "Mon",
+    "intro_soft_skills_bold": "adaptabilité",
+    "intro_soft_skills_part2": "me permet de continuellement évoluer.",
+    "intro_soft_skills_2_part1": "Avec mes connaissances des",
+    "intro_soft_skills_2_bold": "méthodes Agiles et mon travail d'équipe",
+    "intro_soft_skills_2_part2": ", je contribue à la réalisation de produits de qualité."
   }
 }

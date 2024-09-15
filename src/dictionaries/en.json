@@ -2,16 +2,20 @@
   "hero": {
     "welcome": "Welcome to my portfolio!",
     "me": "I am",
-    "me-name": "Vincent Zhong",
-    "me-2": "a",
-    "me-2-title": "Software Engineer",
-    "intro-title": "A quick intro about me",
+    "me_name": "Vincent Zhong",
+    "me_2": "A",
+    "me_2_title": "Software Engineer",
+    "intro_title": "A quick intro about me",
     "intro": "Hey! I'm Vincent, a software engineer driven by the challenge of turning ideas into real-world solutions.",
-    "intro-diploma": "Soon-to be graduated from Epitech Paris with a",
-    "intro-diploma-name": "Master's Degree in Information Technologies",
-    "intro-skills": "I have proficiency in various programming languages, including",
-    "intro-frameworks": "And am skilled in modern frameworks such as",
-    "intro-team-skills": "I support Agile methodologies and excel in team environments, using these skills to create strong products.",
-    "intro-soft-skills": "I have a strong capacity for adaptability, am rigorous, and tackles challenges with enthusiasm. My ability to learn quickly enables me to continously improve and deliver quality products."
+    "intro_diploma": "Soon-to be graduated from Epitech Paris with a",
+    "intro_diploma_name": "Master's Degree in Information Technologies.",
+    "intro_skills": "I'm proficient with various programming languages, including",
+    "intro_frameworks": "And in the use of modern frameworks such as",
+    "intro_soft_skills_part1": "My",
+    "intro_soft_skills_bold": "adaptability",
+    "intro_soft_skills_part2": "allows me to continously improve.",
+    "intro_soft_skills_2_part1": "With my knowledge of",
+    "intro_soft_skills_2_bold": "Agile methodologies and strong teamwork",
+    "intro_soft_skills_2_part2": ", I contribute to deliver high-quality products."
   }
 }
