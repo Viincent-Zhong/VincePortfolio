@@ -4,3 +4,13 @@
 
 @layer base {
 }
+
+.neon-border {
+    box-shadow:
+    0 0 .4rem #fff,
+    0 0 .4rem #fff,
+    0 0 4rem #332d60,
+    0 0 1.6rem #332d60,
+    0 0 5.6rem #332d60,
+    inset 0 0 2.6rem #332d60;
+}

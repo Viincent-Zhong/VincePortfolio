@@ -34,11 +34,16 @@ export default function Projects({ dictionary } : Props) {
                 ))}
             </div>
             {/* Projects */}
-            {(projects.find(([category, _]) => category === selectedCategory)?.at(1) as Project[]).map((project, index) => {return (
-                <div key={index} className="text-5xl">
-                    {project.name}
-                </div>
-            )})}
+            <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 w-full px-24 lg:px-96 gap-6">
+                {(projects.find(([category, _]) => category === selectedCategory)?.at(1) as Project[]).map((project, index) => {return (
+                    <div key={index} className={`order-${index + 1} col-span-1 w-full h-96 flex flex-row justify-center bg-transparent neon-border`}>
+                        {project.name}
+                        <p className="whitespace-pre">
+                            {dictionary[project.description]}
+                        </p>
+                    </div>
+                )})}
+            </div>
         </div>
     )
 }
