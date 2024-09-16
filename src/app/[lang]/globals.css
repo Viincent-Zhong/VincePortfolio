@@ -14,3 +14,9 @@
     0 0 5.6rem #332d60,
     inset 0 0 2.6rem #332d60;
 }
+
+@layer utilities{
+    .zoom {
+        transform: scale(1.1);
+    }
+}

@@ -36,7 +36,7 @@ export default function Projects({ dictionary } : Props) {
             {/* Projects */}
             <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 w-full px-24 lg:px-96 gap-6">
                 {(projects.find(([category, _]) => category === selectedCategory)?.at(1) as Project[]).map((project, index) => {return (
-                    <div key={index} className={`order-${index + 1} col-span-1 w-full h-96 flex flex-row justify-center bg-transparent neon-border`}>
+                    <div key={index} className={`order-${index + 1} col-span-1 w-full h-96 flex flex-row justify-center bg-transparent neon-border hover:zoom ease-in-out duration-300`}>
                         {project.name}
                         <p className="whitespace-pre">
                             {dictionary[project.description]}
