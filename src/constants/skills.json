@@ -1,0 +1,16 @@
+{
+    "hard_skills": [
+        {
+            "icons": "/images/ok",
+            "name": "un skill"
+        }
+    ],
+    "tools": [
+        {
+            "icons": "/images/ok",
+            "name": "a tool"
+        }
+    ],
+    "soft_skills": [
+    ]
+}

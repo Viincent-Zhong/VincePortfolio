@@ -1,7 +1,9 @@
 import { Locale } from "../../../i18n-config";
+import { getDictionary } from "../../../get-dictionary";
 import Interface from "../components/interface/interface";
 import HeroSection from "./hero";
-import { getDictionary } from "../../../get-dictionary";
+import ProjectSection from "./projects";
+import SkillSection from "./skills";
 
 export default async function Home({ params: { lang }}: { params: { lang: Locale }}) {
   const dictionary = await getDictionary(lang);
@@ -12,8 +14,9 @@ export default async function Home({ params: { lang }}: { params: { lang: Locale
       {/* Introduction */}
       <div className="pt-40 pb-40">
         <HeroSection dictionary={dictionary["hero"]}/>
+        <ProjectSection dictionary={dictionary["projects"]}/>
+        {/* <SkillSection dictionary={dictionary["skills"]}/> */}
       </div>
-
       {/* Experiences */}
       {/* Projects */}
       {/* Skills */}

@@ -43,7 +43,7 @@ export default async function HeroSection({ dictionary }: Props) {
             {/* Introduction */}
             <p className="mt-40 text-6xl text-center text-white font-mono font-bold">{dictionary.intro_title} 😃 </p>
             <div className="lg:ml-56 mt-20 grid grid-cols-1 lg:grid-cols-4">
-                <p className="lg:col-span-2 text-2xl p-4 ">
+                <p className="lg:col-span-2 text-2xl p-4 pr-10">
                     <a className="text-white">
                         {/* Intro */}
                         {dictionary.intro}
@@ -94,7 +94,6 @@ export default async function HeroSection({ dictionary }: Props) {
                     </a>
                 </p>
                 <div className="mt-12 relative lg:col-start-3 col-span-1 h-96">
-                    {/* Trouver une photo de moi qui taff */}
                   <Image src="/images/chill-coding.jpg" alt="pic" fill={true} sizes="w-full h-full"/>
                 </div>
             </div>

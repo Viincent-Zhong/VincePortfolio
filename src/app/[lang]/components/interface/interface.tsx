@@ -6,7 +6,7 @@ import ScrollBar from "./scrollBar"
 
 export default function Interface() {
     return (
-        <div className="fixed w-full h-full z-10">
+        <div className="z-50 fixed w-full h-full pointer-events-none">
             <Snowfall snowflakeCount={20}/>
             <Header/>
             <div className="invisible lg:visible">

@@ -15,7 +15,7 @@ export default function Header() {
     };
 
     return (
-      <div className="w-full h-24 bg-slate-700 opacity-50 grid grid-cols-4 md:grid-cols-6 lg:grid-cols-10 grid-rows-1">
+      <div className="pointer-events-auto w-full h-24 bg-slate-700 opacity-50 grid grid-cols-4 md:grid-cols-6 lg:grid-cols-10 grid-rows-1">
         {/* Logo */}
         <div className="relative col-start-1 col-span-1 row-start-1 row-span-1">
           <Image src="/images/logo.png" alt="Logo" fill={true} sizes="w-full h-full" className="p-4"/>
