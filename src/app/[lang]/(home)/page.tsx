@@ -12,18 +12,12 @@ export default async function Home({ params: { lang }}: { params: { lang: Locale
   return (
     <div className="bg-gradient-to-tr from-zinc-900 to-indigo-900 min-h-screen min-w-screen">
       <Interface/>
-      {/* Introduction */}
       <div className="pt-40">
         <HeroSection dictionary={dictionary["hero"]}/>
         <ProjectSection dictionary={dictionary["projects"]}/>
         <ExperiencesSection dictionary={dictionary["experiences"]}/>
         <SkillSection dictionary={dictionary["skills"]}/>
       </div>
-      {/* Experiences */}
-      {/* Projects */}
-      {/* Skills */}
-      {/* Tools */}
-      {/* Soft skills */}
 
       {/* Github */}
 
