@@ -22,9 +22,9 @@ export default function Projects({ dictionary } : Props) {
     const [selectedCategory, setSelectedCategory] = useState(categories[0]);
 
     return (
-        <div id="section-projects" className="w-full mt-24 flex flex-col items-center">
-            <div className="h-24 p-4 w-[60%] bg-gradient-to-r from-zinc-900 via-indigo-950 to-purple-950 rounded-xl text-center"> 
-                <h1 className="text-6xl font-bold bg-gradient-to-r to-indigo-900 from-purple-900 text-transparent inline-block bg-clip-text">{dictionary.title}</h1>
+        <div id="section-projects" className="w-full mt-44 flex flex-col items-center bg-gradient-to-r from-zinc-900 via-indigo-950 to-purple-950 pb-32">
+            <div className="mt-24 h-24 p-4 w-[60%] bg-gradient-to- rounded-xl text-center"> 
+                <h1 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r to-indigo-900 from-purple-900 text-transparent inline-block bg-clip-text">{dictionary.title}</h1>
             </div>
             {/* Categories button */}
             <div className="mt-10 flex flex-row justify-center">

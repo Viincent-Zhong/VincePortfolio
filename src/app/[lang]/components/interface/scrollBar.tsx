@@ -39,7 +39,7 @@ export default function Scroller() {
 
     return (
         <div className="pointer-events-auto visible h-[70%] w-[10%] ml-auto mt-36 rounded-l-md opacity-50">
-            <ul className="space-y-4 text-4xl font-mono">
+            <ul className="space-y-4 text-4xl font-mono break-words">
                 {sections.current.map((section) => {
                     const sectionId = section.id.split('-')[1];
                     return (
