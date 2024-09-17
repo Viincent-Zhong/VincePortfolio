@@ -2,8 +2,8 @@
     "software": [
         {
             "name": "OWL",
-            "image": "/images/owl.png",
-            "link": "",
+            "image": "/images/coding.png",
+            "link": "https://tailwindcss.com/docs/text-wrap",
             "description": "owl"
         },
         {

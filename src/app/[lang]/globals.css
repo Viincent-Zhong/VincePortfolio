@@ -15,6 +15,19 @@
     inset 0 0 2.6rem #332d60;
 }
 
+.neon-text {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #332d60,
+      0 0 82px #332d60,
+      0 0 92px #332d60,
+      0 0 102px #332d60,
+      0 0 151px #332d60;
+  }
+
 @layer utilities{
     .zoom {
         transform: scale(1.1);

@@ -20,6 +20,7 @@
   },
   "projects": {
     "title": "Projects",
+    "redirection": "Link",
     "owl": "une owl\nlol",
     "community_app": "",
     "generathon": "",

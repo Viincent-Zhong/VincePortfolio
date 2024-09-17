@@ -20,6 +20,7 @@
   },
   "projects": {
     "title": "Projets",
+    "redirection": "Lien",
     "owl": "",
     "community_app": "",
     "generathon": "",
