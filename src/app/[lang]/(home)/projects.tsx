@@ -53,9 +53,11 @@ export default function Projects({ dictionary } : Props) {
                             </p>
                             {/* Link */}
                             <div className="w-full flex flex-row justify-center">
-                                <div className="w-40 h-14 bg-gradient-to-r from-indigo-900 to-indigo-950 flex flex-row justify-center items-center cursor-pointer rounded-md" onClick={() => {window.open(project.link, "_blank")}}>
+                                <a href={project.link} target="_blank" rel="noreferrer">
+                                <div className="w-40 h-14 bg-gradient-to-r from-indigo-900 to-indigo-950 flex flex-row justify-center items-center cursor-pointer rounded-md">
                                     <h1 className="text-white text-xl text-center">{dictionary.redirection}</h1>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>

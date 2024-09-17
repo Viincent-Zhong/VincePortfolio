@@ -1,7 +1,4 @@
-'use client'
-
 import Image from "next/image";
-import { useState } from "react";
 
 interface Props {
     dictionary: any;
@@ -41,9 +38,12 @@ export default function Experiences({ dictionary } : Props) {
                             </p>
                             {/* Link */}
                             <div className="w-full flex flex-row justify-center">
-                                <div className="w-40 h-14 bg-gradient-to-r to-indigo-900 from-indigo-950 flex flex-row justify-center items-center cursor-pointer rounded-md" onClick={() => {window.open(experience.link, "_blank")}}>
-                                    <h1 className="text-white text-xl text-center">{dictionary.redirection}</h1>
-                                </div>
+                                <a href={experience.link} target="_blank" rel="noreferrer">
+                                    <div className="w-40 h-14 bg-gradient-to-r to-indigo-900 from-indigo-950 flex flex-row justify-center items-center cursor-pointer rounded-md">
+                                    {/* onClick={() => {window.open(experience.link, "_blank")}}> */}
+                                        <h1 className="text-white text-xl text-center">{dictionary.redirection}</h1>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
