@@ -33,5 +33,10 @@
   "experiences": {
     "title": "Expériences",
     "redirection": "Lien"
+  },
+  "skills": {
+    "hard_skills": "Compétences",
+    "tools": "Outils",
+    "soft_skills": "Soft skills"
   }
 }

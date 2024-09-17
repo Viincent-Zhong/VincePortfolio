@@ -17,7 +17,7 @@ export default function Experiences({ dictionary } : Props) {
 
     return (
         <div id="section-experiences" className="w-full bg-gradient-to-r to-zinc-900 via-indigo-950 from-purple-950 flex flex-col items-center pb-32">
-            <div className="mt-24 h-24 p-4 w-[60%] rounded-xl text-center"> 
+            <div className="mt-40 h-24 p-4 w-[60%] rounded-xl text-center"> 
                 <h1 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-indigo-900 to-purple-900 text-transparent inline-block bg-clip-text">{dictionary.title}</h1>
             </div>
             <div className="mt-24 grid grid-cols-1 lg:grid-cols-2 w-full px-24 lg:px-56 gap-16">
@@ -40,7 +40,6 @@ export default function Experiences({ dictionary } : Props) {
                             <div className="w-full flex flex-row justify-center">
                                 <a href={experience.link} target="_blank" rel="noreferrer">
                                     <div className="w-40 h-14 bg-gradient-to-r to-indigo-900 from-indigo-950 flex flex-row justify-center items-center cursor-pointer rounded-md">
-                                    {/* onClick={() => {window.open(experience.link, "_blank")}}> */}
                                         <h1 className="text-white text-xl text-center">{dictionary.redirection}</h1>
                                     </div>
                                 </a>

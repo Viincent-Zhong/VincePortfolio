@@ -1,16 +1,56 @@
 {
     "hard_skills": [
         {
-            "icons": "/images/ok",
+            "image": "/images/skills/react.png",
             "name": "un skill"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "otro skill"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "un skill mas"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "un skill mas"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "un skill mas"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "un skill mas"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "un skill mas"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "un skill mas"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "un skill mas"
+        },
+        {
+            "image": "/images/skills/react.png",
+            "name": "un skill mas"
         }
     ],
     "tools": [
         {
-            "icons": "/images/ok",
+            "image": "/images/skills/react.png",
             "name": "a tool"
         }
     ],
     "soft_skills": [
+        {
+            "image": "/images/skills/react.png",
+            "name": "a soft skill"
+        }
     ]
 }
