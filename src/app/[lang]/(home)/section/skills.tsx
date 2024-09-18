@@ -23,7 +23,7 @@ export default function Skills({ dictionary }: Props) {
                         {/* Skills */}
                         <div className="mt-10 w-full grid grid-cols-2 lg:grid-cols-5 gap-10 px-10 lg:px-64">
                         {skills.map((skill, index) => { return (
-                            <div key={index} className="col-span-1 h-52 bg-transparent border-2 neon-border flex flex-col items-center justify-center">
+                            <div key={index} className="col-span-1 h-52 bg-transparent border-2 neon-border flex flex-col items-center justify-center hover:zoom ease-in-out duration-300">
                                 <div className="relative h-32 w-32">
                                     <Image src={skill.image} alt={skill.name} fill={true} sizes="w-full h-full"/>
                                 </div>
