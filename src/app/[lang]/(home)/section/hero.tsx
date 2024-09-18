@@ -97,6 +97,12 @@ export default async function HeroSection({ dictionary }: Props) {
                   <Image src="/images/chill-coding.jpg" alt="pic" fill={true} sizes="w-full h-full"/>
                 </div>
             </div>
+            {/* Download CV */}
+            <div className="mt-10 w-full flex flex-row justify-center">
+                <a href="/images/cv.pdf" target="_blank" download className="h-24 w-40 rounded-xl bg-indigo-400 flex flex-row items-center justify-center font-mono text-xl hover:bg-indigo-600 hover:text-cyan-50">
+                    {dictionary.cv}
+                </a>
+            </div>
         </>
     )
 }
