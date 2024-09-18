@@ -40,5 +40,7 @@
     "soft_skills": "Soft skills"
   },
   "footer": {
+    "made_by": "Designed and developed by Vincent Zhong",
+    "mailto": "Contact me!"
   }
 }
