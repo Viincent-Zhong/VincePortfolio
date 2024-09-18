@@ -38,5 +38,7 @@
     "hard_skills": "Compétences",
     "tools": "Outils",
     "soft_skills": "Soft skills"
+  },
+  "footer": {
   }
 }
