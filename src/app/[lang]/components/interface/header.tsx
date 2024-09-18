@@ -18,7 +18,6 @@ export default function Header() {
       return segments.join("/");
     };
 
-    console.log('Current language :', currentLocale);
     return (
       <div className="pointer-events-auto w-full h-24 bg-[rgb(51,65,85,0.5)] flex flex-row items-center">
         {/* Logo */}
