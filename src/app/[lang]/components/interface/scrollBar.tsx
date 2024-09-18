@@ -2,8 +2,15 @@
 
 import { useEffect, useState, useRef } from "react";
 
+const elementIsVisibleInViewport = (el: any) => {
+    if (el.getBoundingClientRect().top < window.innerHeight)
+        return true;
+    return false;
+};
+
 export default function Scroller() {
     const sections = useRef<HTMLElement[]>([]);
+    const anims = useRef<HTMLElement[]>([]);
     const lastScroll = useRef(0);
     const [hightLight, setHighLight] = useState('');
 
@@ -14,15 +21,20 @@ export default function Scroller() {
         if (scrollValue < 50)
             return;
         lastScroll.current = window.pageYOffset;
-        let current = '';
+
         for (let i = 0; i < sections.current.length; i++) {
-            // 6rem 96px (header height)
-            if (window.pageYOffset + 96 >= sections.current[i].offsetTop) {
-                current = sections.current[i].id;
+            if (elementIsVisibleInViewport(sections.current[i])) {
+                setHighLight(sections.current[i].id);
             }
         }
-        if (current)
-            setHighLight(current);
+
+        for (let i = 0; i < anims.current.length; i++) {
+            if (elementIsVisibleInViewport(anims.current[i])) {
+                anims.current[i].classList.add('show');
+            } else {
+                anims.current[i].classList.remove('show');
+            }
+        }
     }
 
     useEffect(() => {
@@ -30,6 +42,10 @@ export default function Scroller() {
         if (section) {
             sections.current = Array.from(section).map((section) => section as HTMLElement);
             setHighLight(sections.current[0].id);
+        }
+        const anim = document.querySelectorAll('[id^="anim-"]');
+        if (anim) {
+            anims.current = Array.from(anim).map((anim) => anim as HTMLElement);
         }
         window.addEventListener('scroll', handleScroll);
         return () => {

@@ -20,12 +20,12 @@ export default function Experiences({ dictionary } : Props) {
             <div className="mt-40 h-24 p-4 w-[60%] rounded-xl text-center"> 
                 <h1 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-indigo-900 to-purple-900 text-transparent inline-block bg-clip-text">{dictionary.title}</h1>
             </div>
-            <div className="mt-24 grid grid-cols-1 lg:grid-cols-2 w-full px-24 lg:px-56 gap-16">
+            <div id="anim-experiences" className="pop-from-bottom mt-24 grid grid-cols-1 lg:grid-cols-2 w-full px-24 lg:px-56 gap-16">
                 { experiences.map((experience, index) => {return (
                     <div key={index} className={`order-${index + 1} col-span-1 w-full h-[60rem] flex flex-row justify-center bg-transparent neon-border hover:zoom ease-in-out duration-300`}>
                         {/* Image */}
                         <div className="w-full h-full flex flex-col overflow-y-auto">
-                            <div className="relative w-full h-[20rem]">
+                            <div className="pop-from-bottom w-full h-[20rem]">
                                 <Image src={experience.image} alt={experience.name} fill={true} sizes="w-full h-full" className="p-6" />
                             </div>
                             {/* Name */}

@@ -33,3 +33,47 @@
         transform: scale(1.1);
     }
 }
+
+.pop-from-bottom {
+    transform: translateY(10rem);
+    opacity: 0;
+    transition: 1s;
+}
+
+.pop-from-bottom.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.pop-from-top {
+    transform: translateY(-10rem);
+    opacity: 0;
+    transition: 1s;
+}
+
+.pop-from-top.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.pop-from-left {
+    transform: translateX(-10rem);
+    opacity: 0;
+    transition: 1s;
+}
+
+.pop-from-left.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.pop-from-right {
+    transform: translateX(10rem);
+    opacity: 0;
+    transition: 1s;
+}
+
+.pop-from-right.show {
+    transform: translateX(0);
+    opacity: 1;
+}
