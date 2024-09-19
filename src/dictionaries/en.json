@@ -45,7 +45,13 @@
   "skills": {
     "hard_skills": "Skills",
     "tools": "Tools",
-    "soft_skills": "Soft skills"
+    "soft_skills": "Soft skills",
+    "adaptability": "Adaptability",
+    "teamwork": "Teamwork",
+    "communication": "Communication",
+    "problem-solving": "Problem solving",
+    "cultural-awareness": "Cultural awareness",
+    "open-mindedness": "Open-mindedness"
   },
   "footer": {
     "made_by": "Designed and developed by Vincent Zhong",

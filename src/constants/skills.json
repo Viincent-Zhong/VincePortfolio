@@ -2,55 +2,123 @@
     "hard_skills": [
         {
             "image": "/images/skills/react.png",
-            "name": "un skill"
+            "name": "ReactJS"
+        },
+        {
+            "image": "/images/skills/nodejs.png",
+            "name": "NodeJS"
+        },
+        {
+            "image": "/images/skills/vuejs.png",
+            "name": "VueJS"
+        },
+        {
+            "image": "/images/skills/nextjs.png",
+            "name": "NextJS"
+        },
+        {
+            "image": "/images/skills/nuxtjs.png",
+            "name": "NuxtJS"
+        },
+        {
+            "image": "/images/skills/mongodb.png",
+            "name": "MongoDB"
+        },
+        {
+            "image": "/images/skills/postgresql.png",
+            "name": "PostgreSQL"
+        },
+        {
+            "image": "/images/skills/javascript.png",
+            "name": "JavaScript"
         },
         {
             "image": "/images/skills/react.png",
-            "name": "otro skill"
+            "name": "ReactNative"
         },
         {
-            "image": "/images/skills/react.png",
-            "name": "un skill mas"
+            "image": "/images/skills/tailwindcss.png",
+            "name": "TailwindCSS"
         },
         {
-            "image": "/images/skills/react.png",
-            "name": "un skill mas"
+            "image": "/images/skills/c.png",
+            "name": "C"
         },
         {
-            "image": "/images/skills/react.png",
-            "name": "un skill mas"
+            "image": "/images/skills/c++.png",
+            "name": "C++"
         },
         {
-            "image": "/images/skills/react.png",
-            "name": "un skill mas"
+            "image": "/images/skills/haskell.png",
+            "name": "Haskell"
         },
         {
-            "image": "/images/skills/react.png",
-            "name": "un skill mas"
+            "image": "/images/skills/python.png",
+            "name": "Python"
         },
         {
-            "image": "/images/skills/react.png",
-            "name": "un skill mas"
+            "image": "/images/skills/docker.png",
+            "name": "Docker"
         },
         {
-            "image": "/images/skills/react.png",
-            "name": "un skill mas"
-        },
-        {
-            "image": "/images/skills/react.png",
-            "name": "un skill mas"
+            "image": "/images/skills/bash.png",
+            "name": "Bash"
         }
     ],
     "tools": [
         {
-            "image": "/images/skills/react.png",
-            "name": "a tool"
+            "image": "/images/skills/git.png",
+            "name": "Git"
+        },
+        {
+            "image": "/images/skills/vscode.png",
+            "name": "VSCode"
+        },
+        {
+            "image": "/images/skills/office.png",
+            "name": "MS Office"
+        },
+        {
+            "image": "/images/skills/trello.png",
+            "name": "Trello"
+        },
+        {
+            "image": "/images/skills/figma.png",
+            "name": "Figma"
+        },
+        {
+            "image": "/images/skills/notion.png",
+            "name": "Notion"
+        },
+        {
+            "image": "/images/skills/linux.png",
+            "name": "Linux"
         }
     ],
     "soft_skills": [
         {
-            "image": "/images/skills/react.png",
-            "name": "a soft skill"
+            "image": "/images/skills/adaptation.png",
+            "name": "adaptability"
+        },
+        {
+            "image": "/images/skills/teamwork.png",
+            "name": "teamwork"
+        },
+        {
+            "image": "/images/skills/communication.png",
+            "name": "communication"
+        },
+        {
+            "image": "/images/skills/idea.png",
+            "name": "problem-solving"
+        },
+        {
+            "image": "/images/skills/cultural.png",
+            "name": "cultural-awareness"
+        },
+        {
+            "image": "/images/skills/mindedness.png",
+            "name": "open-mindedness"
         }
     ]
 }

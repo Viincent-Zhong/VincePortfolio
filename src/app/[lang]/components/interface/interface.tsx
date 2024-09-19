@@ -11,7 +11,7 @@ interface Props {
 export default function Interface({dictionary}: Props) {
     return (
         <div className="z-50 fixed w-full h-full pointer-events-none">
-            <Snowfall snowflakeCount={20}/>
+            <Snowfall snowflakeCount={20} color="#ffebee"/>
             <Header/>
             <div className="invisible lg:visible">
                 <ScrollBar dictionary={dictionary}/>

@@ -21,18 +21,16 @@ export default function Header() {
     return (
       <div className="pointer-events-auto w-full h-24 header-main flex flex-row items-center">
         {/* Logo */}
-        <div className="relative ml-4 lg:ml-20 w-36 h-24">
-          <Image src="/images/logo.png" alt="Logo" fill={true} sizes="w-full h-full" className="p-4"/>
+        <div className="relative ml-4 lg:ml-20">
+          <Image src="/images/logo.png" alt="Logo" width={144} height={96} className="p-4"/>
         </div>
         {/* Translation */}
           <ul className="flex flex-row ml-auto mr-4 lg:mr-14 gap-4">
           {i18n.locales.map((locale) => {
             return (
-              <li key={locale} className="relative w-24 h-24">
-                <Link href={redirectedPathName(locale)}>
-                    <Image src={`/images/${locale}.png`} fill={true} sizes="w-full h-full" alt={locale} className={locale == currentLocale ? '' : 'opacity-50'}/>
-                </Link>
-              </li>
+              <Link key={locale} href={redirectedPathName(locale)}>
+                  <Image src={`/images/${locale}.png`} width={96} height={96} alt={locale} className={locale == currentLocale ? '' : 'opacity-50'}/>
+              </Link>
             );
           })}
           </ul>
