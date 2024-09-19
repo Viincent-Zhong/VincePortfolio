@@ -40,7 +40,9 @@
   },
   "experiences": {
     "title": "Expériences",
-    "redirection": "Lien"
+    "redirection": "Lien",
+    "fekamt": "(Fédération européenne de Karaté-Do et Arts martiaux traditionnels)\n\n Technos : HTML, CSS, JS, PHP\n\n La Fekamt est une organisation avec un grand nombre d'adhérents à travers toute l'Europe. Elle utilise un site web pour gérer ses membres, événements et actualités.\n\n Mes responsabilités étaient de maintenir et d'améliorer le site web, ainsi que de développer de nouvelles fonctionnalités. Comme le filtrage des membres, la création de pdf à partir de la liste des membres.\nJ'ai également dû rédiger la documentation du site web, pour que de nouveaux développeurs puissent travailler sur le site."
+
   },
   "skills": {
     "hard_skills": "Compétences",

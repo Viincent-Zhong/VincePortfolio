@@ -51,7 +51,7 @@ export default function Projects({ dictionary } : Props) {
                                 {project.name}
                             </h1>
                             {/* Text */}
-                            <p className="mt-10 whitespace-pre px-8 text-sm lg:text-xl text-main h-[30rem] overflow-y-auto">
+                            <p className="mt-10 whitespace-pre text-wrap px-8 text-sm lg:text-xl text-main h-[30rem] overflow-y-auto">
                                 {dictionary[project.description]}
                             </p>
                             {/* Link */}

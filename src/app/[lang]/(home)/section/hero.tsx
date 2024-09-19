@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CvButton from "../../components/cvButton";
 
 interface Props {
     dictionary: any;
@@ -98,11 +99,7 @@ export default async function HeroSection({ dictionary }: Props) {
                 </div>
             </div>
             {/* Download CV */}
-            <div className="mt-10 w-full flex flex-row justify-center">
-                <a href="/images/cv.pdf" target="_blank" download className="h-24 w-40 font-semibold rounded-xl button-main flex flex-row items-center justify-center text-xl">
-                    {dictionary.cv}
-                </a>
-            </div>
+            <CvButton dictionary={dictionary}/>
         </>
     )
 }

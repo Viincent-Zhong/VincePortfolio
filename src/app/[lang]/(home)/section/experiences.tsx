@@ -28,7 +28,7 @@ export default function Experiences({ dictionary } : Props) {
                     <div key={index} className={`order-${index + 1} col-span-1 w-full h-[60rem] flex flex-row justify-center bg-transparent neon-border hover:zoom ease-in-out duration-300`}>
                         {/* Image */}
                         <div className="w-full h-full flex flex-col overflow-y-auto">
-                            <div className="pop-from-bottom w-full h-[20rem]">
+                            <div className="relative w-full h-[20rem]">
                                 <Image src={experience.image} alt={experience.name} fill={true} sizes="w-full h-full" className="p-6" />
                             </div>
                             {/* Name */}
@@ -36,7 +36,7 @@ export default function Experiences({ dictionary } : Props) {
                                 {experience.name}
                             </h1>
                             {/* Text */}
-                            <p className="mt-10 whitespace-pre px-8 text-sm lg:text-xl text-main h-[30rem] overflow-y-auto">
+                            <p className="mt-10 whitespace-pre px-8 text-sm lg:text-xl text-main h-[30rem] text-wrap overflow-y-auto">
                                 {dictionary[experience.description]}
                             </p>
                             {/* Link */}
