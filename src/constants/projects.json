@@ -28,28 +28,34 @@
     "game": [
         {
             "name": "RTYPE",
-            "image": "/images/rtype",
-            "link": "",
+            "image": "/images/projects/rtype.png",
+            "link": "https://github.com/Viincent-Zhong/RTYPE",
             "description": "rtype"
         },
         {
             "name": "Indiestudio",
-            "image": "/images/indiestudio",
-            "link": "",
+            "image": "/images/projects/indiestudio.png",
+            "link": "https://github.com/Viincent-Zhong/IndieStudio",
             "description": "indiestudio"
         },
         {
             "name": "Zappy",
-            "image": "/images/zappy",
-            "link": "",
+            "image": "/images/projects/zappy.png",
+            "link": "https://github.com/Viincent-Zhong/Zappy",
             "description": "zappy"
+        },
+        {
+            "name": "My RPG",
+            "image": "/images/projects/rpg.png",
+            "link": "https://github.com/Viincent-Zhong/MyRPG",
+            "description": "rpg"
         }
     ],
     "misc": [
         {
             "name": "Glados",
-            "image": "/images/glados",
-            "link": "",
+            "image": "/images/projects/glados.jpg",
+            "link": "https://github.com/Viincent-Zhong/Glados",
             "description": "glados"
         }
     ]
