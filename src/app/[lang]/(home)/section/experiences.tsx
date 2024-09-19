@@ -40,6 +40,7 @@ export default function Experiences({ dictionary } : Props) {
                                 {dictionary[experience.description]}
                             </p>
                             {/* Link */}
+                            { experience.link &&
                             <div className="w-full flex flex-row justify-center">
                                 <a href={experience.link} target="_blank" rel="noreferrer">
                                     <div className="w-40 h-14 button-main flex flex-row justify-center items-center cursor-pointer rounded-md">
@@ -47,6 +48,7 @@ export default function Experiences({ dictionary } : Props) {
                                     </div>
                                 </a>
                             </div>
+                            }
                         </div>
                     </div>
                 )})}
