@@ -28,6 +28,7 @@ export default function Projects({ dictionary } : Props) {
                     <h1 className="text-4xl lg:text-6xl font-bold text-main section">{dictionary.title}</h1>
                     <div className="w-24 separator rounded-xl"/>
                 </div>
+                <h2 className="mt-2 text-2xl text-main">{dictionary.exhaustive}</h2>
             </div>
             {/* Categories button */}
             <div className="mt-10 flex flex-row justify-center">
@@ -55,6 +56,7 @@ export default function Projects({ dictionary } : Props) {
                                 {dictionary[project.description]}
                             </p>
                             {/* Link */}
+                            { project.link &&
                             <div className="w-full flex flex-row justify-center">
                                 <a href={project.link} target="_blank" rel="noreferrer">
                                 <div className="w-40 h-14 button-main flex flex-row justify-center items-center cursor-pointer rounded-md">
@@ -62,6 +64,7 @@ export default function Projects({ dictionary } : Props) {
                                 </div>
                                 </a>
                             </div>
+                            }
                         </div>
                     </div>
                 )})}

@@ -3,25 +3,25 @@
         {
             "name": "OWL",
             "image": "/images/projects/owl.png",
-            "link": "https://tailwindcss.com/docs/text-wrap",
+            "link": "",
             "description": "owl"
         },
         {
             "name": "CommunityApp",
-            "image": "/images/community",
-            "link": "",
+            "image": "/images/projects/community-app.png",
+            "link": "https://github.com/Viincent-Zhong/communityApp",
             "description": "community_app"
         },
         {
             "name": "Generathon",
-            "image": "/images/generathon",
-            "link": "",
+            "image": "/images/projects/generathon.png",
+            "link": "https://github.com/Viincent-Zhong/Generathon",
             "description": "generathon"
         },
         {
             "name": "TaskOrganiser",
-            "image": "/images/task_organiser",
-            "link": "",
+            "image": "/images/projects/unknown.png",
+            "link": "https://github.com/Viincent-Zhong/Task_organizer",
             "description": "task_organiser"
         }
     ],
