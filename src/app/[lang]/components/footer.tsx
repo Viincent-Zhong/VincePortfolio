@@ -6,13 +6,13 @@ interface Props {
 
 export default function Footer({ dictionary }: Props) {
     return (
-        <footer className="w-full bg-zinc-800 flex flex-col lg:flex-row items-center gap-2">
-            <div className="ml-6 text-xl text-white">
+        <footer id="section-contacts" className="w-full contacts-main flex flex-col lg:flex-row items-center gap-2 font-osans">
+            <div className="ml-6 text-xl text-main">
                 {dictionary.made_by}
             </div>
             <div className="w-full flex flex-row justify-center">
                 <a href="mailto:vincent.zhong@epitech.eu">
-                    <div className="text-2xl underline text-indigo-200">
+                    <div className="text-2xl underline text-main link">
                         {dictionary.mailto}
                     </div>
                 </a>

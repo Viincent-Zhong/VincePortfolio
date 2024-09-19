@@ -5,14 +5,23 @@
 @layer base {
 }
 
-.neon-border {
-    box-shadow:
-    0 0 .4rem #fff,
-    0 0 .4rem #fff,
-    0 0 4rem #332d60,
-    0 0 1.6rem #332d60,
-    0 0 5.6rem #332d60,
-    inset 0 0 2.6rem #332d60;
+:root {
+    --color-cosmic-latte: #fff8e7;
+    --color-antique-white: #faebd7;
+    --color-champagne: #f7e7ce;
+    --color-bisque: #ffe4c4;
+    --color-linen: #faf0e6;
+    --color-cream: #fffdd0;
+    --color-ecru: #cdb891;
+    --color-khaki: #c3b091;
+    --color-slate-gray: #708090;
+    --color-light-charcoal: #6e6e6e;
+    --color-dark-gray: #333333;
+    --color-charcoal: #4a4a4a;
+    --color-dark-brown: #4e3b2e;
+    --color-rich-brown: #6f4f28;
+    --color-deep-chestnust: #5c4033;
+    --color-dark-coffee: #4b3f2b;
 }
 
 .neon-text {
@@ -76,4 +85,66 @@
 .pop-from-right.show {
     transform: translateX(0);
     opacity: 1;
+}
+
+.text-main {
+    /* color: var(--color-dark-coffee); */
+    color: black;
+}
+
+.text-main.highlight {
+    color: var(--color-deep-chestnust)
+}
+
+.text-main.link {
+    color: var(--color-rich-brown);
+}
+
+.text-main.section {
+    color: var(--color-charcoal);
+}
+
+.neon-border {
+    box-shadow:
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem var(--color-ecru),
+    0 0 0.8rem var(--color-ecru),
+    0 0 2.8rem var(--color-ecru),
+    inset 0 0 1.3rem var(--color-ecru);
+}
+
+.header-main {
+    background-color: var(--color-khaki);
+    /* @apply bg-zinc-500 */
+}
+
+.bg-main {
+    background-color: var(--color-champagne);
+}
+
+.experiences-main {
+    background-color: var(--color-antique-white);
+}
+
+.projects-main {
+    background-color: var(--color-antique-white);
+}
+
+.skills-main {
+    background-color: var(--color-linen);
+}
+
+.contacts-main {
+    background-color: var(--color-khaki);
+}
+
+.button-main {
+    background-color: var(--color-rich-brown);
+    color: white;
+}
+
+.button-main:hover {
+    background-color: var(--color-dark-coffee);
+    color: black;
 }

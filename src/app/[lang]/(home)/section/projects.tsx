@@ -22,14 +22,14 @@ export default function Projects({ dictionary } : Props) {
     const [selectedCategory, setSelectedCategory] = useState(categories[0]);
 
     return (
-        <div id="section-projects" className="w-full mt-44 flex flex-col items-center bg-gradient-to-r from-zinc-900 via-indigo-950 to-purple-950 pb-32">
-            <div className="mt-40 h-24 p-4 w-[60%] bg-gradient-to- rounded-xl text-center"> 
-                <h1 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r to-indigo-900 from-purple-900 text-transparent inline-block bg-clip-text">{dictionary.title}</h1>
+        <div id="section-projects" className="w-full flex flex-col items-center projects-main pb-32 font-osans">
+            <div className="mt-40 h-24 p-4 w-[60%] rounded-xl text-center"> 
+                <h1 className="text-4xl lg:text-6xl font-bold text-main section">{dictionary.title}</h1>
             </div>
             {/* Categories button */}
             <div className="mt-10 flex flex-row justify-center">
                 {categories.map((category, index) => (
-                    <div key={index} className="text-white font-mono text-4xl p-4 underline cursor-pointer hover:text-indigo-800" onClick={() => {setSelectedCategory(category)}}>
+                    <div key={index} className="text-main highlight text-4xl p-4 underline cursor-pointer hover:text-indigo-800" onClick={() => {setSelectedCategory(category)}}>
                         {category.toUpperCase()}
                     </div>
                 ))}
@@ -44,18 +44,18 @@ export default function Projects({ dictionary } : Props) {
                                 <Image src={project.image} alt={project.name} fill={true} sizes="w-full h-full" className="p-6" />
                             </div>
                             {/* Name */}
-                            <h1 className="text-center text-4xl lg:text-5xl text-white font-bold break-words">
+                            <h1 className="text-center text-4xl lg:text-5xl text-main font-bold break-words">
                                 {project.name}
                             </h1>
                             {/* Text */}
-                            <p className="mt-10 whitespace-pre px-8 text-sm lg:text-xl text-white font-mono h-[30rem] overflow-y-auto">
+                            <p className="mt-10 whitespace-pre px-8 text-sm lg:text-xl text-main h-[30rem] overflow-y-auto">
                                 {dictionary[project.description]}
                             </p>
                             {/* Link */}
                             <div className="w-full flex flex-row justify-center">
                                 <a href={project.link} target="_blank" rel="noreferrer">
-                                <div className="w-40 h-14 bg-gradient-to-r from-indigo-900 to-indigo-950 flex flex-row justify-center items-center cursor-pointer rounded-md">
-                                    <h1 className="text-white text-xl text-center">{dictionary.redirection}</h1>
+                                <div className="w-40 h-14 button-main flex flex-row justify-center items-center cursor-pointer rounded-md">
+                                    <h1 className="text-xl text-center">{dictionary.redirection}</h1>
                                 </div>
                                 </a>
                             </div>

@@ -19,7 +19,7 @@ export default function Header() {
     };
 
     return (
-      <div className="pointer-events-auto w-full h-24 bg-[rgb(51,65,85,0.5)] flex flex-row items-center">
+      <div className="pointer-events-auto w-full h-24 header-main flex flex-row items-center">
         {/* Logo */}
         <div className="relative ml-4 lg:ml-20 w-36 h-24">
           <Image src="/images/logo.png" alt="Logo" fill={true} sizes="w-full h-full" className="p-4"/>

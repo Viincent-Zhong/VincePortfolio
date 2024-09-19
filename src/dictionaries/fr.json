@@ -1,4 +1,11 @@
 {
+  "interface": {
+    "about": "Moi",
+    "projects": "Projets",
+    "experiences": "Expériences",
+    "skills": "Compétences",
+    "contacts": "Contacts"
+  },
   "hero": {
     "welcome": "Bienvenue sur mon portfolio!",
     "me": "Je suis",

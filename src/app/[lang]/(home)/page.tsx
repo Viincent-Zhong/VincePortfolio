@@ -11,12 +11,12 @@ export default async function Home({ params: { lang }}: { params: { lang: Locale
   const dictionary = await getDictionary(lang);
 
   return (
-    <div className="bg-gradient-to-tr from-zinc-900 to-indigo-900 min-h-screen min-w-screen">
-      <Interface/>
+    <div id="section-about" className="bg-main min-h-screen min-w-screen">
+      <Interface dictionary={dictionary["interface"]}/>
       <div className="pt-40">
         <HeroSection dictionary={dictionary["hero"]}/>
-        <ProjectSection dictionary={dictionary["projects"]}/>
         <ExperiencesSection dictionary={dictionary["experiences"]}/>
+        <ProjectSection dictionary={dictionary["projects"]}/>
         <SkillSection dictionary={dictionary["skills"]}/>
         <Footer dictionary={dictionary["footer"]}/>
       </div>
