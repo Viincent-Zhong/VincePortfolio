@@ -12,7 +12,7 @@ export default function Footer({ dictionary }: Props) {
             </div>
             <div className="w-full flex flex-row justify-center">
                 <a href="mailto:vincent.zhong@epitech.eu">
-                    <div className="text-2xl underline text-main link">
+                    <div className="text-2xl underline text-main font-semibold link">
                         {dictionary.mailto}
                     </div>
                 </a>

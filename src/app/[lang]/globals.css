@@ -88,8 +88,8 @@
 }
 
 .text-main {
-    /* color: var(--color-dark-coffee); */
-    color: black;
+    color: var(--color-charcoal);
+    /* color: black; */
 }
 
 .text-main.highlight {
@@ -101,7 +101,7 @@
 }
 
 .text-main.section {
-    color: var(--color-charcoal);
+    color: var(--color-dark-coffee);
 }
 
 .neon-border {
@@ -114,9 +114,13 @@
     inset 0 0 1.3rem var(--color-ecru);
 }
 
+.separator {
+    background-color: var(--color-rich-brown);
+    height: 0.5rem;
+    margin-top: 0.5rem;
+}
 .header-main {
     background-color: var(--color-khaki);
-    /* @apply bg-zinc-500 */
 }
 
 .bg-main {
@@ -139,12 +143,31 @@
     background-color: var(--color-khaki);
 }
 
+@keyframes moveUp {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-0.5rem);
+    }
+}
+
+@keyframes moveDown {
+    0% {
+      transform: translateY(-0.5rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
 .button-main {
     background-color: var(--color-rich-brown);
     color: white;
+    animation: moveDown 1s forwards;
 }
 
+  
 .button-main:hover {
-    background-color: var(--color-dark-coffee);
-    color: black;
+  animation: moveUp 1s forwards;
 }

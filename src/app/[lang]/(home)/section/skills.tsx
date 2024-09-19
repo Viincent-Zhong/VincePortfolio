@@ -19,7 +19,10 @@ export default function Skills({ dictionary }: Props) {
             {skills.map(([category, skills]) => {
                 return (
                     <div key={category} className="w-full mt-52 flex flex-col items-center">
-                        <h1 className="font-bold text-5xl text-main section">{dictionary[category]}</h1>
+                        <div className="flex flex-col items-center">
+                            <h1 className="font-bold text-5xl text-main section">{dictionary[category]}</h1>
+                            <div className="w-1/2 separator rounded-xl"/>
+                        </div>
                         {/* Skills */}
                         <div id={`anim-${category}`} className="pop-from-left mt-10 w-full grid grid-cols-2 lg:grid-cols-5 gap-10 px-10 lg:px-64">
                         {skills.map((skill, index) => { return (

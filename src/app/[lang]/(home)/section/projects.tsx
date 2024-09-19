@@ -23,13 +23,16 @@ export default function Projects({ dictionary } : Props) {
 
     return (
         <div id="section-projects" className="w-full flex flex-col items-center projects-main pb-32 font-osans">
-            <div className="mt-40 h-24 p-4 w-[60%] rounded-xl text-center"> 
-                <h1 className="text-4xl lg:text-6xl font-bold text-main section">{dictionary.title}</h1>
+            <div className="mt-40 h-24 p-4 w-[60%] text-center"> 
+                <div className="flex flex-col items-center">
+                    <h1 className="text-4xl lg:text-6xl font-bold text-main section">{dictionary.title}</h1>
+                    <div className="w-24 separator rounded-xl"/>
+                </div>
             </div>
             {/* Categories button */}
             <div className="mt-10 flex flex-row justify-center">
                 {categories.map((category, index) => (
-                    <div key={index} className="text-main highlight text-4xl p-4 underline cursor-pointer hover:text-indigo-800" onClick={() => {setSelectedCategory(category)}}>
+                    <div key={index} className="text-main highlight text-4xl p-4 underline cursor-pointer hover:font-semibold" onClick={() => {setSelectedCategory(category)}}>
                         {category.toUpperCase()}
                     </div>
                 ))}
@@ -44,7 +47,7 @@ export default function Projects({ dictionary } : Props) {
                                 <Image src={project.image} alt={project.name} fill={true} sizes="w-full h-full" className="p-6" />
                             </div>
                             {/* Name */}
-                            <h1 className="text-center text-4xl lg:text-5xl text-main font-bold break-words">
+                            <h1 className="text-center text-4xl lg:text-5xl text-main highlight font-bold break-words">
                                 {project.name}
                             </h1>
                             {/* Text */}
