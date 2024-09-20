@@ -59,7 +59,7 @@ export default function Scroller({dictionary}: Props) {
 
     return (
         <div className="pointer-events-auto h-[70%] w-[10%] ml-auto mt-52 rounded-l-md font-sans">
-            <ul className="select-none space-y-4 text-3xl break-words rounded-l-xl header-main px-4 py-8 shadow-2xl">
+            <ul className="select-none space-y-4 text-3xl whitespace-nowrap rounded-l-xl header-main px-4 py-8 shadow-2xl">
                 {sections.current.map((section) => {
                     const sectionId = section.id.split('-')[1];
                     return (
