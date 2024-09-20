@@ -17,7 +17,7 @@ export default function CvButton({dictionary}: Props) {
 
     return (
         <div className="mt-10 w-full flex flex-row justify-center">
-            <a href={`/images/cv-${currentLocale}.pdf`} target="_blank" download className="h-24 w-40 font-semibold rounded-xl button-main flex flex-row items-center justify-center text-xl">
+            <a href={`/images/Vincent's CV (${currentLocale} ver.).pdf`} target="_blank" className="h-24 w-40 font-semibold rounded-xl button-main flex flex-row items-center justify-center text-xl">
                 {dictionary.cv}
             </a>
         </div>
