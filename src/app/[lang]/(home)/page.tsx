@@ -6,13 +6,12 @@ import HeroSection from "./section/hero";
 import ProjectSection from "./section/projects";
 import ExperiencesSection from "./section/experiences";
 import SkillSection from "./section/skills";
-import Loading from "./loading";
 
 export default async function Home({ params: { lang }}: { params: { lang: Locale }}) {
   const dictionary = await getDictionary(lang);
 
   return (
-    <div id="section-about" className="bg-main min-h-screen min-w-screen">
+    <div id="section-about" className="bg-main min-h-screen min-w-screen overflow-x-hidden">
       <Interface dictionary={dictionary["interface"]}/>
       <div className="pt-40">
         <HeroSection dictionary={dictionary["hero"]}/>
