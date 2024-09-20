@@ -6,6 +6,7 @@ import HeroSection from "./section/hero";
 import ProjectSection from "./section/projects";
 import ExperiencesSection from "./section/experiences";
 import SkillSection from "./section/skills";
+import Loading from "./loading";
 
 export default async function Home({ params: { lang }}: { params: { lang: Locale }}) {
   const dictionary = await getDictionary(lang);
