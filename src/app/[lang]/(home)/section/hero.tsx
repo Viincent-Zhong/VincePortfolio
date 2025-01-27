@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CvButton from "../../components/cvButton";
+import CvButton from "@/components/cvButton";
 
 interface Props {
     dictionary: any;

@@ -1,7 +1,7 @@
-import { Locale } from "../../../i18n-config";
-import { getDictionary } from "../../../get-dictionary";
-import Interface from "../components/interface/interface";
-import Footer from "../components/footer";
+import { Locale } from "@/i18n-config";
+import { getDictionary } from "@/get-dictionary";
+import Interface from "@/components/interface/interface";
+import Footer from "@/components/footer";
 import HeroSection from "./section/hero";
 import ProjectSection from "./section/projects";
 import ExperiencesSection from "./section/experiences";

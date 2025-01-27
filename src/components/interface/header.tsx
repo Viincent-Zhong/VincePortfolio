@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { i18n, type Locale } from "../../../../i18n-config";
+import { i18n, type Locale } from "@/i18n-config";
 
 export default function Header() {
     const pathName = usePathname();
